@@ -12,26 +12,21 @@
   height: 600px;
 }
 .one {
-  background-color: #051b69;
+  background-color: #0b06f5;
 }
 .two {
   background-color: #056ab3;
 }
 .three {
-  background-color: #04635e;
+  background-color: #06a4a4;
 }
 .four {
   background-color: #07e3a1;
 }
-.secondary_group one {
-  background-color: #f48926;
-}
-.secondary_group two {
-  background-color: #e37809;
-}
 @media (min-width: 384px) {
 .one{
     width: 100%;
+    height: 300px;
   }
 .two {
     width: 100%;
@@ -41,6 +36,7 @@
   }
 .four{
     width: 100%;
+    height: 300px;
   }
 }
 @media (min-width: 659px) {
@@ -57,7 +53,7 @@
 .four {
   width: 33.3%;
   height: 50%;
-}
+  }
 }
 @media (min-width: 1366px) {
   .one {
