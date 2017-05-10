@@ -1,10 +1,12 @@
 .head {
   width: 100%;
   background-color: #fa5504;
+  font-family: 'Frank Ruhl Libre', sans-serif;
 }
 .body {
   display: flex;
   flex-wrap: wrap;
+  font-family: 'Josefin Sans', sans-serif;
 }
 .primary {
   flex: auto;
@@ -12,7 +14,7 @@
   height: 600px;
 }
 .one {
-  background-color: #0b06f5;
+  background-color: #5344f9;
 }
 .two {
   background-color: #056ab3;
@@ -41,18 +43,18 @@
 }
 @media (min-width: 659px) {
 .one {
-  width: 33.3%;
+  width: 3.33%;
   height: 50%;
   }
 .two {
   width: 33.3%;
+  height: 50%;
 }
 .three {
   width: 33.3%;
 }
 .four {
   width: 33.3%;
-  height: 50%;
   }
 }
 @media (min-width: 1366px) {
