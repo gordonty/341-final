@@ -2,6 +2,10 @@
   width: 100%;
   background-color: #fa5504;
 }
+.body {
+  display: flex;
+  flex-wrap: wrap;
+}
 .primary {
   flex: auto;
   width: 250px;
