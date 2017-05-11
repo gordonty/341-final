@@ -63,7 +63,7 @@ Nick Moles
 
 <h1>Documentation</h1>
 
-  <p>Below is the documentation for my website. It is mainly the design wireframes. There are also images of some of the pages that had issues on them. There is not a lot of documentation</p>
+  <p>Below is the documentation for my website. It is mainly the design wireframes. The wireframes are hard to see as they are done in pencil. There are also images of some of the pages that had issues on them. There is not a lot of documentation</p>
 
   <br />
 
@@ -93,4 +93,37 @@ Nick Moles
   <br />
 
   <img src="./css/imgs/sketch_5.JPG"/>
-  <p>
+  <p>The design layout for the suggestions home page.</p>
+
+  <br />
+
+  <img src="./css/imgs/sketch_6.JPG"/>
+  <p>Design layout for suggestions based on author page.</p>
+
+  <br />
+
+  <img src="./css/imgs/sketch_7.JPG"/>
+  <p>Design layout for suggestions based on genre page.</p>
+
+  <br />
+
+  <img src="./css/imgs/sketch_8.JPG"/>
+  <p>Design layout for suggestions based on age group page.</p>
+
+  <br />
+
+  <img src="./css/imgs/sketch_9.JPG"/>
+  <p>Design layout for about/contact page.</p>
+
+  <br />
+
+  <img src="./css/imgs/design_problem.PNG"/>
+  <p>Here you can see that at the largest screen size instead of seeing all four sections side by side like you should you can only see three sections side by side and have to scroll down to see the fourth section.<p/>
+
+  <br />
+
+  <img src="./css/imgs/dropdown_problem.PNG"/>
+  <p>Here you can see the home page and when you look at the menu it doesn't look right. I do have my mouse hovering over the suggestions link but it doesn't show in the image and you can't see the dropdown information.</p>
+
+  <h5>Additional notes</h5>
+    <p>If the above images are not showing please look in the imgs folder which can be found in the css folder. I'm not sure why they would not be showing.</p>
