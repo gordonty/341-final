@@ -73,131 +73,157 @@ body {
 .img-1 {
   min-height: 100vh;
   background-image: url("imgs/letter_a.jpg");
+  text-align: center;
 }
 
 .img-2 {
   min-height: 400px;
   background-image: url("imgs/letter_b.jpg");
+  text-align: center;
 }
 
 .img-3 {
   min-height: 400px;
   background-image: url("imgs/letter_c.jpg");
+  text-align: center;
 }
 
 .img-4 {
   min-height: 400px;
   background-image: url("imgs/letter_d.png");
+  text-align: center;
 }
 
 .img-5 {
   min-height: 400px;
   background-image: url("imgs/letter_e.png");
+  text-align: center;
 }
 
 .img-6 {
   min-height: 400px;
   background-image: url("imgs/letter_f.png");
+  text-align: center;
 }
 
 .img-7 {
   min-height: 400px;
   background-image: url("imgs/letter_g.jpg");
+  text-align: center;
 }
 
 .img-8 {
   min-height: 400px;
   background-image: url("imgs/letter_h.png");
+  text-align: center;
 }
 
 .img-9 {
   min-height: 400px;
   background-image: url("imgs/letter_i.jpg");
+  text-align: center;
 }
 
 .img-10 {
   min-height: 400px;
   background-image: url("imgs/letter_j.png");
+  text-align: center;
 }
 
 .img-11 {
   min-height: 400px;
   background-image: url("imgs/letter_k.png");
+  text-align: center;
 }
 
 .img-12 {
   min-height: 400px;
   background-image: url("imgs/letter_l.png");
+  text-align: center;
 }
 
 .img-13 {
   min-height: 400px;
   background-image: url("imgs/letter_m.png");
+  text-align: center;
 }
 
 .img-14 {
   min-height: 400px;
   background-image: url("imgs/letter_n.jpg");
+  text-align: center;
 }
 
 .img-15 {
   min-height: 400px;
   background-image: url("imgs/letter_o.jpg");
+  text-align: center;
 }
 
 .img-16 {
   min-height: 400px;
   background-image: url("imgs/letter_p.jpg");
+  text-align: center;
 }
 
 .img-17 {
   min-height: 400px;
   background-image: url("imgs/letter_q.jpg");
+  text-align: center;
 }
 
 .img-18 {
   min-height: 400px;
   background-image: url("imgs/letter_r.png");
+  text-align: center;
 }
 
 .img-19 {
   min-height: 400px;
   background-image: url("imgs/letter_s.jpg");
+  text-align: center;
 }
 
 .img-20 {
   min-height: 400px;
   background-image: url("imgs/letter_t.png");
+  text-align: center;
 }
 
 .img-21 {
   min-height: 400px;
   background-image: url("imgs/letter_u.jpg");
+  text-align: center;
 }
 
 .img-22 {
   min-height: 400px;
   background-image: url("imgs/letter_v.jpg");
+  text-align: center;
 }
 
 .img-23 {
   min-height: 400px;
   background-image: url("imgs/letter_w.jpg");
+  text-align: center;
 }
 
 .img-24 {
   min-height: 400px;
   background-image: url("imgs/letter_x.png");
+  text-align: center;
 }
 
 .img-25 {
   min-height: 400px;
   background-image: url("imgs/letter_y.jpg");
+  text-align: center;
 }
 
 .img-26 {
   min-height: 400px;
   background-image: url("imgs/letter_z.png");
+  text-align: center;
 }
 
 .hero {
