@@ -1,4 +1,4 @@
-header {
+header .menu {
   background-color: #7b5bb0;
   font-family: 'Frank Ruhl Libre', sans-serif;
   font-size: 18pt;
@@ -28,7 +28,7 @@ header {
   display: inline-block;
 }
 
-.dropdown-content {
+.dropcontent {
   display: none;
   position: absolute;
   border: 1px solid #000;
@@ -37,7 +37,7 @@ header {
   z-index: 1;
 }
 
-.dropdown-content a {
+.dropcontent a {
   color: #000;
 }
 
@@ -45,7 +45,7 @@ header {
   display: block;
 }
 
-.dropdown-item {
+.dropitem {
   display: block;
   text-align: left;
   margin: 0;
@@ -53,7 +53,7 @@ header {
   min-width: 7em;
 }
 
-.dropdown-item:hover, .dropdown-item:hover a {
+.dropitem:hover, .dropitem:hover a {
   background-color: #b00859;
 }
 
@@ -97,7 +97,7 @@ body {
 
 .img-6 {
   min-height: 400px;
-  background-image: url("imgs.ignite.jpg");
+  background-image: url("imgs/ignite.jpg");
 }
 
 .hero {
