@@ -2,11 +2,13 @@
   width: 100%;
   background-color: #fa5504;
   font-family: 'Frank Ruhl Libre', sans-serif;
+  text-align: center;
 }
 .body {
   display: flex;
   flex-wrap: wrap;
   font-family: 'Josefin Sans', sans-serif;
+  padding: 3em;
 }
 .primary {
   flex: auto;
