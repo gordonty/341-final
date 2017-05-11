@@ -29,7 +29,7 @@
   background-color: #07e3a1;
 }
 @media (min-width: 384px) {
-  .one{
+  .one {
     width: 100%;
   }
   .two {
@@ -38,7 +38,7 @@
   .three {
     width: 100%;
   }
-  .four{
+  .four {
     width: 100%;
   }
 }

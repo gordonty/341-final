@@ -65,7 +65,7 @@ header .menu {
 }
 
 .intro {
-  background-color: #046039;
+  background-color: #4504fe;
 }
 
 .h1 {
@@ -80,19 +80,19 @@ header .menu {
 }
 
 .one {
-  background-color: #06a160;
+  background-color: #59a1f6;
 }
 
 .two {
-  background-color: #067335;
+  background-color: #acd3f7;
 }
 
 .three {
-  background-color: #05ac25;
+  background-color: #059d81;
 }
 
-.four {
-  background-color: #2ed105;
+.email {
+  background-color: #05face;
 }
 
 @media (min-width: 384px) {
@@ -108,7 +108,7 @@ header .menu {
 .three {
     width: 100%;
   }
-.four {
+.email {
     width: 100%;
   }
 }
@@ -123,26 +123,26 @@ header .menu {
   width: 50%;
 }
 .three {
-  width: 50%;
+  width: 100%;
 }
-.four {
-  width: 50%;
+.email {
+  width: 100%;
   }
 }
 @media (min-width: 1366px) {
 .intro {
-  width: 50%;
+  width: 100%;
 }
 .one {
-    width: 25%;
+    width: 33.3%;
   }
 .two {
-    width: 25%;
+    width: 33.3%;
   }
 .three {
-    width: 25%;
+    width: 33.3%;
   }
-.four{
-    width: 25%;
+.email {
+    width: 100%;
   }
 }

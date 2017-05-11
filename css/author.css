@@ -1,0 +1,237 @@
+header .menu {
+  background-color: #7b5bb0;
+  font-family: 'Frank Ruhl Libre', sans-serif;
+  font-size: 18pt;
+  margin-bottom: 0;
+  height: 2.15em;
+}
+
+.menu-item {
+  display: inline-block;
+  margin: 0 0;
+  min-width: 8em;
+  text-align: center;
+  background-color: #bd5deb;
+  padding: 0.5em 0;
+}
+
+.menu-item a {
+  color: #131213;
+  text-decoration: none;
+}
+
+.menu-item:hover {
+  background-color: #ad04ac;
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropcontent {
+  display: none;
+  position: absolute;
+  border: 1px solid #000;
+  margin-top: 0.5em;
+  background-color: #9a5698;
+  z-index: 1;
+}
+
+.dropcontent a {
+  color: #000;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropitem {
+  display: block;
+  text-align: left;
+  margin: 0;
+  padding: 0.5em;
+  min-width: 7em;
+}
+
+.dropitem:hover, .dropitem:hover a {
+  background-color: #b00859;
+}
+
+body {
+  margin: 0;
+  font: 400 15px/1.8 "Josefin Sans", sans-serif;
+}
+
+.img-1, .img-2, .img-3, .img-4, .img-5, .img-6, .img-7, .img-8, .img-9, .img-10, .img-11, .img-12, .img-13, .img-14, .img-15, .img-16, .img-17, .img-18, .img-19, .img-20, .img-21, .img-22, .img-23, .img-24, .img-25, .img-26 {
+  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.img-1 {
+  min-height: 100vh;
+  background-image: url("imgs/letter_a.jpg");
+}
+
+.img-2 {
+  min-height: 400px;
+  background-image: url("imgs/letter_b.jpg");
+}
+
+.img-3 {
+  min-height: 400px;
+  background-image: url("imgs/letter_c.jpg");
+}
+
+.img-4 {
+  min-height: 400px;
+  background-image: url("imgs/letter_d.png");
+}
+
+.img-5 {
+  min-height: 400px;
+  background-image: url("imgs/letter_e.png");
+}
+
+.img-6 {
+  min-height: 400px;
+  background-image: url("imgs/letter_f.png");
+}
+
+.img-7 {
+  min-height: 400px;
+  background-image: url("imgs/letter_g.jpg");
+}
+
+.img-8 {
+  min-height: 400px;
+  background-image: url("imgs/letter_h.png");
+}
+
+.img-9 {
+  min-height: 400px;
+  background-image: url("imgs/letter_i.jpg");
+}
+
+.img-10 {
+  min-height: 400px;
+  background-image: url("imgs/letter_j.png");
+}
+
+.img-11 {
+  min-height: 400px;
+  background-image: url("imgs/letter_k.png");
+}
+
+.img-12 {
+  min-height: 400px;
+  background-image: url("imgs/letter_l.png");
+}
+
+.img-13 {
+  min-height: 400px;
+  background-image: url("imgs/letter_m.png");
+}
+
+.img-14 {
+  min-height: 400px;
+  background-image: url("imgs/letter_n.jpg");
+}
+
+.img-15 {
+  min-height: 400px;
+  background-image: url("imgs/letter_o.jpg");
+}
+
+.img-16 {
+  min-height: 400px;
+  background-image: url("imgs/letter_p.jpg");
+}
+
+.img-17 {
+  min-height: 400px;
+  background-image: url("imgs/letter_q.jpg");
+}
+
+.img-18 {
+  min-height: 400px;
+  background-image: url("imgs/letter_r.png");
+}
+
+.img-19 {
+  min-height: 400px;
+  background-image: url("imgs/letter_s.jpg");
+}
+
+.img-20 {
+  min-height: 400px;
+  background-image: url("imgs/letter_t.png");
+}
+
+.img-21 {
+  min-height: 400px;
+  background-image: url("imgs/letter_u.jpg");
+}
+
+.img-22 {
+  min-height: 400px;
+  background-image: url("imgs/letter_v.jpg");
+}
+
+.img-23 {
+  min-height: 400px;
+  background-image: url("imgs/letter_w.jpg");
+}
+
+.img-24 {
+  min-height: 400px;
+  background-image: url("imgs/letter_x.png");
+}
+
+.img-25 {
+  min-height: 400px;
+  background-image: url("imgs/letter_y.jpg");
+}
+
+.img-26 {
+  min-height: 400px;
+  background-image: url("imgs/letter_z.png");
+}
+
+.hero {
+  padding: 50px 80px;
+  background-color: #f7b025;
+  text-align: justify;
+}
+
+.caption {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+}
+
+.description-container {
+  position: relative;
+}
+
+.description {
+  padding: 50px 80px;
+  background-color: #df5508;
+  text-align: justify;
+}
+
+.caption span.border {
+  padding: 18px;
+  background-color: #950303;
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  .img-1, .img-2, .img-3, .img-4, .img-5, .img-6, .img-7, .img-8, .img-9, .img-10, .img-11, .img-12, .img-13, .img-14, .img-15, .img-16, .img-17, .img-18, .img-19, .img-20, .img-21, .img-22, .img-23, .img-24, .img-25, .img-26 {
+    background-attachment: scroll;
+  }
+}

@@ -65,14 +65,14 @@ header .menu {
 }
 
 .intro {
-  background-color: #046039;
+  background-color: #9eab04;
 }
 
 .h1 {
   font-family: 'Frank Ruhl Libre', sans-serif;
 }
 
-.links {
+.review {
   flex: auto;
   width: 250px;
   height: 300px;
@@ -80,69 +80,63 @@ header .menu {
 }
 
 .one {
-  background-color: #06a160;
+  background-color: #849a38;
 }
 
 .two {
-  background-color: #067335;
+  background-color: #c1b905;
 }
 
 .three {
-  background-color: #05ac25;
+  background-color: #7e6e05;
 }
 
 .four {
-  background-color: #2ed105;
+  background-color: #fbcc03;
+}
+
+.five {
+  background-color: #e6950d;
+}
+
+.six {
+  background-color: #ee9f43;
+}
+
+.seven {
+  background-color: #f7752b;
+}
+
+.eight {
+  background-color: #d65105;
+}
+
+.nine {
+  background-color: #b84926;
 }
 
 @media (min-width: 384px) {
-.intro {
-  width: 100%;
-}
-.one {
-    width: 100%;
-  }
-.two {
-    width: 100%;
-  }
-.three {
-    width: 100%;
-  }
-.four {
+  .one, .two, .three, .four, .five, .six, .seven, .eight, .nine {
     width: 100%;
   }
 }
+
 @media (min-width: 659px) {
-.intro {
-  width: 100%;
-}
-.one {
-  width: 50%;
+  .one {
+    width: 100%;
   }
-.two {
-  width: 50%;
-}
-.three {
-  width: 50%;
-}
-.four {
-  width: 50%;
+
+  .two, .three, .four, .five, .six, .seven, .eight, .nine {
+    width: 50%;
   }
 }
+
 @media (min-width: 1366px) {
-.intro {
-  width: 50%;
-}
-.one {
-    width: 25%;
+  .one {
+    width: 100%;
   }
-.two {
-    width: 25%;
-  }
-.three {
-    width: 25%;
-  }
-.four{
+
+  .two, .three, .four, .five, .six, .seven, .eight, .nine {
     width: 25%;
   }
 }
