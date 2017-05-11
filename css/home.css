@@ -1,0 +1,137 @@
+header {
+  background-color: #7b5bb0;
+  font-family: 'Frank Ruhl Libre', sans-serif;
+  font-size: 18pt;
+  margin-bottom: 0;
+  height: 2.15em;
+}
+
+.menu-item {
+  display: inline-block;
+  margin: 0 0;
+  min-width: 8em;
+  text-align: center;
+  background-color: #bd5deb;
+  padding: 0.5em 0;
+}
+
+.menu-item a {
+  color: #131213;
+  text-decoration: none;
+}
+
+.menu-item:hover {
+  background-color: #ad04ac;
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  border: 1px solid #000;
+  margin-top: 0.5em;
+  background-color: #9a5698;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #000;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-item {
+  display: block;
+  text-align: left;
+  margin: 0;
+  padding: 0.5em;
+  min-width: 7em;
+}
+
+.dropdown-item:hover, .dropdown-item:hover a {
+  background-color: #b00859;
+}
+
+body {
+  margin: 0;
+  font: 400 15px/1.8 "Josefin Sans", sans-serif;
+}
+
+.img-1, .img-2, .img-3, .img-4, .img-5, .img-6 {
+  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.img-1 {
+  min-height: 100vh;
+  background-image: url("imgs/live.jpg");
+}
+
+.img-2 {
+  min-height: 400px;
+  background-image: url("imgs/child.jpg");
+}
+
+.img-3 {
+  min-height: 400px;
+  background-image: url("imgs/magic.jpg");
+}
+
+.img-4 {
+  min-height: 400px;
+  background-image: url("imgs/mind.jpg");
+}
+
+.img-5 {
+  min-height: 400px;
+  background-image: url("imgs/conversation.jpg");
+}
+
+.img-6 {
+  min-height: 400px;
+  background-image: url("imgs.ignite.jpg");
+}
+
+.hero {
+  padding: 50px 80px;
+  background-color: #f7b025;
+  text-align: justify;
+}
+
+.caption {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+}
+
+.description-container {
+  position: relative;
+}
+
+.description {
+  padding: 50px 80px;
+  background-color: #df5508;
+  text-align: justify;
+}
+
+.caption span.border {
+  padding: 18px;
+  background-color: #950303;
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  .img-1, .img-2, .img-3, .img-4, .img-5, .img-6 {
+    background-attachment: scroll;
+  }
+}
