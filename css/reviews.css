@@ -65,8 +65,6 @@ header .menu {
 }
 
 .intro {
-  background-image: url("imgs/review.jpg");
-  background-repeat: no-repeat;
   background-color: #046039;
 }
 
@@ -77,7 +75,7 @@ header .menu {
 .links {
   flex: auto;
   width: 250px;
-  height: 600px;
+  height: 300px;
   padding: 3em;
 }
 
@@ -99,7 +97,7 @@ header .menu {
 
 @media (min-width: 384px) {
 .intro {
-  width: 100%
+  width: 100%;
 }
 .one{
     width: 100%;
@@ -116,7 +114,7 @@ header .menu {
 }
 @media (min-width: 659px) {
 .intro {
-  width: 100%
+  width: 100%;
 }
 .one {
   width: 50%;
@@ -133,7 +131,7 @@ header .menu {
 }
 @media (min-width: 1366px) {
 .intro {
-  width: 50%
+  width: 50%;
 }
 .one {
     width: 25%;

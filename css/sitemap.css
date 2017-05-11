@@ -29,44 +29,44 @@
   background-color: #07e3a1;
 }
 @media (min-width: 384px) {
-.one{
+  .one{
     width: 100%;
   }
-.two {
+  .two {
     width: 100%;
   }
-.three {
+  .three {
     width: 100%;
   }
-.four{
+  .four{
     width: 100%;
   }
 }
 @media (min-width: 659px) {
-.one {
-  width: 50%;
+  .one {
+    width: 50%;
   }
-.two {
-  width: 50%;
+  .two {
+    width: 50%;
 }
-.three {
-  width: 50%;
+  .three {
+    width: 50%;
 }
-.four {
-  width: 50%;
+  .four {
+    width: 50%;
   }
 }
 @media (min-width: 1366px) {
-.one {
+  .one {
     width: 25%;
   }
-.two {
+  .two {
     width: 25%;
   }
-.three {
+  .three {
     width: 25%;
   }
-.four{
+  .four{
     width: 25%;
   }
 }
