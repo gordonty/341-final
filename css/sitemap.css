@@ -43,18 +43,16 @@
 }
 @media (min-width: 659px) {
 .one {
-  width: 3.33%;
-  height: 50%;
+  width: 50%;
   }
 .two {
-  width: 33.3%;
-  height: 50%;
+  width: 50%;
 }
 .three {
-  width: 33.3%;
+  width: 50%;
 }
 .four {
-  width: 33.3%;
+  width: 50%;
   }
 }
 @media (min-width: 1366px) {
